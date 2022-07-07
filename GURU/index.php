@@ -75,7 +75,6 @@
                         ?>
                     </tbody>
                 </table>
-                 <!-- /TABLE DOSEN -->
             </div>
         </div>
         </div>
