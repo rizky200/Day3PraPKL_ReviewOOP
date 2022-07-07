@@ -58,10 +58,10 @@
                         <td><?php echo $data['alamat'] ?></td>
                         <td>
                             <div>
-                            <a href="show.php?id=<?php echo $data['id']; ?>" class="btn btn-warning">Show</a> ||
-                            <a href="edit.php?id=<?php echo $data['id']; ?>" class="btn btn-success">Edit</a> ||
+                            <a href="show.php?no=<?php echo $data['no']; ?>" class="btn btn-warning">Show</a> ||
+                            <a href="edit.php?no=<?php echo $data['no']; ?>" class="btn btn-success">Edit</a> ||
                             <form action="proses.php" method="post" class="d-inline">
-                            <input type="hidden" name="id" value="<?php echo $data['id']; ?>">
+                            <input type="hidden" name="no" value="<?php echo $data['no']; ?>">
                             <input type="hidden" name="aksi" value="delete">
                             <button type="submit" class="btn btn-danger" name="save" onclick="return confirm('Apakah Anda Yakin Mau menghapus data ini ?')">
                                 Delete
